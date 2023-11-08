@@ -102,22 +102,39 @@ function App() {
 const [data,setData] = useState(items);
 const [cartCount,setCartCount] = useState(0);
 const [totalCost,setTotalCost] = useState(0);
-const [price,setPrice] = useState(items[0].price);
-console.log(price);
+
+const [cartCount1,setCartCount1] = useState(0);
+const [totalCost1,setTotalCost1] = useState(0);
+const [price1,setPrice1] = useState(items[0].price);
+
+const [cartCount2,setCartCount2] = useState(0);
+const [totalCost2,setTotalCost2] = useState(0);
+const [price2,setPrice2] = useState(items[1].price);
+
+const [cartCount3,setCartCount3] = useState(0);
+const [totalCost3,setTotalCost3] = useState(0);
+const [price3,setPrice3] = useState(items[2].price);
+
+const [cartCount4,setCartCount4] = useState(0);
+const [totalCost4,setTotalCost4] = useState(0);
+const [price4,setPrice4] = useState(items[3].price);
+
+const [cartCount5,setCartCount5] = useState(0);
+const [totalCost5,setTotalCost5] = useState(0);
+const [price5,setPrice5] = useState(items[4].price);
+
   
   return (
     <>
       <div className="app">
         <ShopCtx.Provider
           value={{
-            data,
-            setData,
-            cartCount,
-            setCartCount,
-            totalCost,
-            setTotalCost,
-            price,
-            setPrice
+            data,setData,cartCount,setCartCount,totalCost,setTotalCost,
+            cartCount1,setCartCount1,totalCost1,setTotalCost1,price1,setPrice1,
+            cartCount2,setCartCount2,totalCost2,setTotalCost2,price2,setPrice2,
+            cartCount3,setCartCount3,totalCost3,setTotalCost3,price3,setPrice3,
+            cartCount4,setCartCount4,totalCost4,setTotalCost4,price4,setPrice4,
+            cartCount5,setCartCount5,totalCost5,setTotalCost5,price5,setPrice5,
           }}>
           <TopBar />
           <Cart />
