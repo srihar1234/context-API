@@ -1,0 +1,34 @@
+.top{
+    font-size: 30px;
+    font-weight: bolder;
+    color:aliceblue;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:2rem;
+    padding:30px;
+}
+
+.prodImg{
+    width:250px;
+    height:200px;
+}
+
+.cartPreview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:20px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
