@@ -29,7 +29,7 @@ export default function Cards() {
                                     setTotalCost1(totalCost1+price1);
                                     setTotalCost(totalCost+price1);
                                     }}>+</button>
-                                <button className="btn btn-primary">In Cart : {cartCount1}</button>
+                                <button className="btn btn-primary">{cartCount1}</button>
                                 <button className="btn btn-primary" onClick={()=>{
                                     setCartCount1(cartCount1-1);
                                     setCartCount(cartCount-1);
@@ -56,7 +56,7 @@ export default function Cards() {
                                     setCartCount(cartCount+1);
                                     setTotalCost(totalCost+price2);
                                     }}>+</button>
-                                <button className="btn btn-primary">In Cart : {cartCount2}</button>
+                                <button className="btn btn-primary">{cartCount2}</button>
                                 <button className="btn btn-primary" onClick={()=>{
                                     setCartCount2(cartCount2-1)
                                     setTotalCost2(totalCost2-price2);
@@ -83,7 +83,7 @@ export default function Cards() {
                                     setCartCount(cartCount+1);
                                     setTotalCost(totalCost+price3);
                                     }}>+</button>
-                                <button className="btn btn-primary">In Cart : {cartCount3}</button>
+                                <button className="btn btn-primary">{cartCount3}</button>
                                 <button className="btn btn-primary" onClick={()=>{
                                     setCartCount3(cartCount3-1)
                                     setTotalCost3(totalCost3-price3);
@@ -110,7 +110,7 @@ export default function Cards() {
                                     setCartCount(cartCount+1);
                                     setTotalCost(totalCost+price4);
                                     }}>+</button>
-                                <button className="btn btn-primary">In Cart : {cartCount4}</button>
+                                <button className="btn btn-primary">{cartCount4}</button>
                                 <button className="btn btn-primary" onClick={()=>{
                                     setCartCount4(cartCount4-1)
                                     setTotalCost4(totalCost4-price4);
@@ -139,7 +139,7 @@ export default function Cards() {
                                     setCartCount(cartCount+1);
                                     setTotalCost(totalCost+price5);
                                     }}>+</button>
-                                <button className="btn btn-primary">In Cart : {cartCount5}</button>
+                                <button className="btn btn-primary">{cartCount5}</button>
                                 <button className="btn btn-primary" onClick={()=>{
                                     setCartCount5(cartCount5-1)
                                     setTotalCost5(totalCost5-price5);
